@@ -22,11 +22,11 @@ function validate() {
     } else if (isNaN(num1) || isNaN(num2)) {
         $('#result').html('Sorry, one of those is not a valid number.');
     } else if (operator === '') {
-        $('#result').html('Your operator is empty. FIX IT!');
+        $('#result').html('Sorry, that is not a valid operator!');
     } else if (operator === '+' || operator === '-' || operator === '*' || operator === '/') {
         doMath();
     } else {
-        $('#result').html("Sorry, that is not a valid operator.");
+        $('#result').html("Sorry, one of those is not a valid number");
     }
 }
 
