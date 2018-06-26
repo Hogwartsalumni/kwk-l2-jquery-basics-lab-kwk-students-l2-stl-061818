@@ -26,7 +26,7 @@ function validate() {
     } else if (operator === '+' || operator === '-' || operator === '*' || operator === '/') {
         doMath();
     } else {
-        $('#result').html("Sorry, one of those is not a valid number");
+        $('#result').html("Sorry, that is not a valid operator.");
     }
 }
 
