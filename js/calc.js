@@ -20,7 +20,7 @@ function validate() {
     if (num1 === '' || num2 === '') {
         $('#result').html('Input BOTH numbers.');
     } else if (isNaN(num1) || isNaN(num2)) {
-        $('#result').html('At least one of those is not a number.');
+        $('#result').html('Sorry, one of those is not a valid number.');
     } else if (operator === '') {
         $('#result').html('Your operator is empty. FIX IT!');
     } else if (operator === '+' || operator === '-' || operator === '*' || operator === '/') {
